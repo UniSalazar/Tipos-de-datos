@@ -10,7 +10,7 @@ public class Pasword {
 		// Verificar si el usuario y la contraseña son correctos
         if (usuario.equals("abimael") && contraseña.equals("12345")) {
             JOptionPane.showMessageDialog(null, "Inicio de sesión exitoso. ¡Bienvenido, " + usuario + "!");
-        
+        } else {
         }
 	}
 }
