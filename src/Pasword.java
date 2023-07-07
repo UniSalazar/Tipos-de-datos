@@ -6,6 +6,7 @@ public class Pasword {
 		// TODO Auto-generated method stub
 
 		String usuario = JOptionPane.showInputDialog("Ingrese su nombre de usuario:");
+		String contraseña = JOptionPane.showInputDialog("Ingrese su contraseña:");
 	}
 
 }
