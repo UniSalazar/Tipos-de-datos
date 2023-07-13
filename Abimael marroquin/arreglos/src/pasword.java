@@ -20,6 +20,13 @@ public class pasword {
 	                break;
 	            }
 	        }
-	}
+	                // Mostrar el resultado utilizando JOptionPane
+	                if (letraEncontrada) {
+	                    JOptionPane.showMessageDialog(null, "La contraseña contiene la letra objetivo.");
+	                } else {
+	                    JOptionPane.showMessageDialog(null, "La contraseña no contiene la letra objetivo.");
+	            }
+	        }
+	        }
 
-}
+
