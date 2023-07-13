@@ -12,7 +12,14 @@ public class pasword {
 		// Convertir la contraseña a un arreglo de caracteres
 	        char[] arregloPassword = password.toCharArray();	
 		  
-		  
+	     // Verificar si la letra objetivo está presente en el arreglo
+	        boolean letraEncontrada = false;
+	        for (char A : arregloPassword) {
+	            if (A== letraObjetivo) {
+	                letraEncontrada = true;
+	                break;
+	            }
+	        }
 	}
 
 }
